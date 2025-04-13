@@ -1,8 +1,25 @@
 # gemma3-4b-it-fine-tuning
 
+## ディレクトリ構造
+
+```bash
+├── gemma # gemma3 4b itのベンチマークによる評価
+│   ├── ja_vg_vqa_500.ipynb
+│   ├── ja_vlm_bench_in_the_wild.ipynb
+│   └── japanese_heron_bench.ipynb
+├── gemma_sft # fine-tuningのコードと、ベンチマークによる評価
+│   ├── ja_vg_vqa_500_py.ipynb
+│   ├── ja_vlm_bench_in_the_wild_py.ipynb
+│   ├── japanese_heron_bench.ipynb
+│   └── sft_latest.ipynb
+├── README.md
+└── upload_hf.ipynb # HFのuploadのコード
+
+```
+
 ## ベンチマークによる評価
 
-###gemma3-jicvqa-sft 評価結果
+### gemma3-jicvqa-sft 評価結果
 
 | Benchmark                   | ROUGE-L            |
 |-----------------------------|--------------------|
